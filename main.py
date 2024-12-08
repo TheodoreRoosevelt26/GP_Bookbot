@@ -27,7 +27,7 @@ def character_filter(counting_dic):
 
 def print_char_list(filtered_list):
     for entry in filtered_list:
-        print(f"The {entry[0]} character was found {entry[1]} times")
+        print(f"The '{entry[0]}' character was found {entry[1]} times")
     return
 
 def main():
